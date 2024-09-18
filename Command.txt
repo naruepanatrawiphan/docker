@@ -1,0 +1,21 @@
+ docker ps
+ docker ps --all
+ docker run busybox ping google.com
+ docker create busybox ping google.com
+ docker run busybox ls
+ docker stop
+ docker rm
+ docker pull sytem
+ docker start
+ docker exec -it a6c7bf1ee125 sh
+ docker exec -it a6c7bf1ee125 bash
+ docker run -p 80:80 nginx
+ docker run -p 9000:80 nginx
+ http://localhost:9000/
+ docker run --name myngnix -d -p 3000:80 ngnix
+ docker logs 
+ docker system df
+ docker images
+ docker system info
+ docker images inspect nginx
+ docker image rm 
